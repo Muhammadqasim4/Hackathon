@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 31px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+ul>li{
+    list-style-type: none;
+}
+
+.header-button{
+    width: 122px;
+    height: 32px;
+    background-color: #4CAF4F;
+    color: #ffff;
+    font-weight: 730;
+    border-radius: 4px;
+    border: 0px;
+}
+
+@media screen and (max-width-768px) {
+    .container{
+        flex-direction: column; 
+    }
+    ul{
+        flex-direction: column;
+    }
+    .logo{
+        margin-top: 12px;
+
+    }
+}
+    .content{
+        margin-top: 71px;
+    }
+    .hero-image{
+        margin-left: 10px;
+    }
+    .cs-hero{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cs-hd{
+        font-size: 40px;
+        font-weight: 600;
+
+    }
+
+    .cs-para{
+        color: #717171;
+    }
+    .cont-btn{
+        width: 89px;
+        height: 36px;
+        background-color: #4CAF4F;
+        color: #ffff;
+        border: 0px;
+        border-radius: 4px;
+    }
+
+
+@media screen and( max-width:768px){
+    .cs-hero{
+        flex-direction: column;
+        text-align: center;
+    }
+    .cs-hd{
+        position: relative;
+        bottom: 20px;
+
+    }
+.hero-image{
+    margin-top: 50px;
+}
+} 
+
+.clients-section {
+    text-align: center;
+    padding: 40px 20px;
+
+}
+
+.clients-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color:black;
+}
+
+.clients-section p {
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.clients-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-logos img {
+    max-width: 100px;
+    height: auto;
+   
+}
+
+@media (max-width: 768px) {
+    .clients-section {
+        padding: 20px 10px;
+    }
+
+    .clients-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .clients-section p {
+        font-size: 0.9rem;
+    }
+
+    .clients-logos {
+        gap: 15px;
+    }
+
+    .clients-logos img {
+        max-width: 80px;
+    }
+}
+
+.cs-secttion{
+    display: flex;
+    justify-content: center;
+    
+    }
+
+.container {
+        display: flex;
+        justify-content: center; 
+        align-items: center;    
+         
+      }
+      
+   
+      
+    
